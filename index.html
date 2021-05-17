@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Formulario de contacto" />
+		<title>Contacto</title>
+		<link rel="stylesheet" href="index.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600;800&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<section class="contact section-container">
+			<h1 class="section-title">Contact</h1>
+			<div class="contact__content">
+				<div class="contact__info">
+					<div class="info-card">
+						<div class="info-card__icon">
+							<i class="far fa-envelope"></i>
+						</div>
+						<div class="info-card__text">consultas@correo.com</div>
+					</div>
+					<div class="info-card">
+						<div class="info-card__icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="info-card__text">Av 15 de julio Nrp 9 - Ciudad - Paris</div>
+					</div>
+					<div class="info-card">
+						<div class="info-card__icon">
+							<i class="fas fa-phone"></i>
+						</div>
+						<div class="info-card__text">
+							(01) 3453 454
+							<br />
+							(01) 3233 452
+						</div>
+					</div>
+					<div class="social-icon-list">
+						<div class="social-icon">
+							<i class="fab fa-facebook-f"></i>
+						</div>
+						<div class="social-icon">
+							<i class="fab fa-twitter"></i>
+						</div>
+						<div class="social-icon">
+							<i class="fab fa-instagram"></i>
+						</div>
+					</div>
+				</div>
+				<div class="contact__form">
+					<form class="form">
+						<div class="form__row form__row--collapse">
+							<div class="form__group">
+								<select class="form__control">
+									<option value="male">Sexo</option>
+									<option value="male">Masculino</option>
+									<option value="female">Femenino</option>
+								</select>
+							</div>
+							<div class="form__group">
+								<input type="date" class="form__control" />
+							</div>
+						</div>
+						<div class="form__row form__row--md-collapse">
+							<div class="form__group">
+								<input type="text" placeholder="Nombre" class="form__control" />
+							</div>
+							<div class="form__group">
+								<input type="text" placeholder="Apellido" class="form__control" />
+							</div>
+						</div>
+						<div class="form__row">
+							<div class="form__group">
+								<input type="email" placeholder="Email" class="form__control" />
+							</div>
+						</div>
+						<div class="form__row">
+							<div class="form__group">
+								<input type="text" placeholder="Dirección" class="form__control" />
+							</div>
+						</div>
+						<div class="form__row form__row--md-collapse">
+							<div class="form__group">
+								<input type="text" placeholder="Casa / apartamento" class="form__control" />
+							</div>
+							<div class="form__group">
+								<select type="text" placeholder="País" class="form__control">
+									<option>País 1</option>
+								</select>
+							</div>
+						</div>
+						<div class="form__row form__row--md-collapse">
+							<div class="form__group">
+								<input type="text" placeholder="Departamento" class="form__control" />
+							</div>
+							<div class="form__group">
+								<input type="text" placeholder="Ciudad" class="form__control" />
+							</div>
+						</div>
+						<div class="form__row">
+							<div class="form__group">
+								<textarea type="text" placeholder="Departamento" class="form__control"></textarea>
+							</div>
+						</div>
+						<div class="form__actions">
+							<button class="form__submit btn btn--primary">Enviar</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		<script src="index.js"></script>
+	</body>
+</html>
